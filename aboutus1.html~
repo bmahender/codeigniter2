@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <title>AboutUs</title>
+       <body>
+<!--        container start-->
+<div id="container">
+<!--    header start-->
+    <header>
+        <h1><span class="blue-text">Blue</span> Developer Directory</h1>
+        <h2>Find A Developer <span class="white-text">NOW</span></h2>
+    </header>
+<!--    header end-->
+<!--main menu start-->
+<nav id="menu">
+    <ul>
+        <li><a href="index2.html">Home</a></li>
+        <li><a href="aboutus1.html">About Us</a></li>
+        <li><a href="">Browse Developers</a></li>
+        <li><a href="contact1.html">Contact Us</a></li>
+    </ul>
+</nav>
+<!--main menu start-->
+<!--left menu start-->
+<nav id="leftmenu">
+    <h3>Links</h3>
+    <ul>
+        <li><a href="">SEO</a></li>
+        <li><a href="">PHP</a></li>    
+        <li><a href="">Ajax</a></li>
+        <li><a href="">jQuery</a></li>
+        <li><a href="">Web design</a></li>
+        <li><a href="">Web programming</a></li>
+        <li><a href="">content creation</a></li>
+        <li><a href="">Internet Marketing</a></li>
+        <li><a href="">XHTML Templates</a></li>
+    </ul>
+</nav>
+<section>
+  <h3>Blue Developer Directory</h3>
+  <h4>Who are We?</h4>
+  <p>We are a fictional website and service that list top web developers around the world. Search and browse fictional web developers on our website absolutley FREE!</p>
+  <h4>What Skills Do Our Developers Have?</h4>
+  <p>Our listed fictional web developers skill ranges from Graphic design with Photoshop, Illustrator and Fireworks to markup languages like HTML5, XHTML and XML to programming languages such as Javascript, PHP, Python and ASP</p>
+<!--video tag is started from here -->
+<video id="ad" height="500" width="350" controls>
+<source src="video/ad.mp4" type="video/mp4">
+your browseer will nnot support video tag
+</video>
+<div style="width:400px;">
+<button id="" onclick="playPause()">play/pause</button>
+<button id="" onclick="makeBig()">Big</button>
+<button id="" onclick="makeSmall()">Small</button>
+<button id="" onclick="makeNormal()">Normal</button>
+</div>
+<script>
+function playPause(){
+
+}
+function makeBig(){
+
+}
+</script>
+
+<!--video tag is ended here -->
+</section>
+</div><!--container end-->
+<div></div>
+<!--footer start-->
+<footer>
+    Copyright &copy; 2013, Blue Web Developer Directory
+</footer>
+<!--footer end-->
+</body>
+</html>
